@@ -1,0 +1,10 @@
+[package]
+name = "wordle-solver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wordle = { path = "wordle" }
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
